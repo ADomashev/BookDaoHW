@@ -1,0 +1,31 @@
+# Maven artifacts
+**/target
+**/generated-sources
+**/bin/**
+
+# Eclipse artifacts, including WTP generated manifests
+
+**/.settings/**
+**/.classpath
+**/.project
+**/.checkstyle
+**/.eclipse-pmd
+**/.settings/*
+**/log.dir_IS_UNDEFINED/**
+**/*.log
+**/.eclipse-pmd
+**/.springBeans
+
+# IDEA artifacts and output dirs
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea
+out
+test-output
+/bin/
+/target/
+
+# Debug testng.xml
+test/testng.xml
